@@ -58,6 +58,21 @@ body {
     color: var(--foreground);
 }
 
+.download-btn {
+    border: 1px solid var(--accent-foreground);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--secondary-foreground);
+    color: white;
+    text-decoration: none;
+}
+
+.why-kgec-section {
+    &>h2:first-child {
+        color : black
+    }
+}
+
 /* Layout */
 .app-container {
     min-height: 100vh;
@@ -495,6 +510,9 @@ section {
 
 .team-card {
     text-align: center;
+    &>img {
+        object-fit: cover;
+    }
 }
 
 .team-photo {
@@ -609,6 +627,13 @@ section {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: var(--foreground);
+}
+
+.section-title-dark {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color : black
 }
 
 /* Add responsive styles for images */

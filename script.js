@@ -195,30 +195,29 @@ document.addEventListener('DOMContentLoaded', () => {
     initTabs();
     
     // Populate Why KGEC section
-    const whyKgecSection = document.querySelector('.why-kgec-section');
-    whyKgecSection.innerHTML = `
-        <div class="container">
-            <h2 class="section-title">Why Choose KGEC?</h2>
-            <div class="grid grid-cols-1 grid-cols-2 grid-cols-3">
-                <div class="card">
-                    <h3>Excellence in Education</h3>
-                    <p>Top-ranked engineering college with state-of-the-art facilities and expert faculty.</p>
-                </div>
-                <div class="card">
-                    <h3>Industry Connections</h3>
-                    <p>Strong ties with leading companies ensuring excellent placement opportunities.</p>
-                </div>
-                <div class="card">
-                    <h3>Research Focus</h3>
-                    <p>Emphasis on innovation and research with modern laboratory facilities.</p>
-                </div>
-                <div class="card">
-                    <h3>Skilled Graduates</h3>
-                    <p>Comprehensive training ensuring industry-ready professionals.</p>
-                </div>
-            </div>
-        </div>
-    `;
+    // const whyKgecSection = document.querySelector('.why-kgec-section');
+    // whyKgecSection.innerHTML = `
+    //     <div class="container">
+    //         <div class="grid grid-cols-1 grid-cols-2 grid-cols-3">
+    //             <div class="card">
+    //                 <h3>Excellence in Education</h3>
+    //                 <p>Top-ranked engineering college with state-of-the-art facilities and expert faculty.</p>
+    //             </div>
+    //             <div class="card">
+    //                 <h3>Industry Connections</h3>
+    //                 <p>Strong ties with leading companies ensuring excellent placement opportunities.</p>
+    //             </div>
+    //             <div class="card">
+    //                 <h3>Research Focus</h3>
+    //                 <p>Emphasis on innovation and research with modern laboratory facilities.</p>
+    //             </div>
+    //             <div class="card">
+    //                 <h3>Skilled Graduates</h3>
+    //                 <p>Comprehensive training ensuring industry-ready professionals.</p>
+    //             </div>
+    //         </div>
+    //     </div>
+    // `;
 
     // Populate recruiters section with company logos
     const recruitersSection = document.querySelector('.recruiters-section .container');
