@@ -189,6 +189,16 @@ function initTabs() {
     showTab('placement');
 }
 
+  const navbar1 = document.getElementById('mainNav');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar1.classList.add('fixed');
+    } else {
+      navbar1.classList.remove('fixed');
+    }
+  });
+
 // Initialize components when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     initHeroSlider();
