@@ -99,7 +99,7 @@ function initTabs() {
     function createChart(data) {
         const container = document.createElement('div');
         container.className = 'chart-container';
-
+        
         const canvas = document.createElement('canvas');
         canvas.width = 800;
         canvas.height = 400;
